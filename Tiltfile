@@ -11,7 +11,7 @@ k8s_custom_deploy(
                " --source-image " + SOURCE_IMAGE +
                " --namespace " + NAMESPACE +
                " --yes >/dev/null" +
-               " && kubectl get workload web-app --namespace " + NAMESPACE + " -o yaml",
+               " && kubectl get workload spring-tap-petclinic --namespace " + NAMESPACE + " -o yaml",
     delete_cmd="tanzu apps workload delete -f config/workload.yaml --namespace " + NAMESPACE + " --yes",
     deps=['pom.xml', './target/classes'],
     container_selector='workload',
@@ -21,4 +21,4 @@ k8s_custom_deploy(
 )
 
 k8s_resource('spring-tap-petclinic', port_forwards=["8080:8080"],
-            extra_pod_selectors=[{'serving.knative.dev/service': 'web-app'}])
+            extra_pod_selectors=[{'serving.knative.dev/service': 'spring-tap-petclinic'}])
