@@ -1,10 +1,13 @@
-INSERT INTO vets VALUES (1, 'James', 'Carter');
-INSERT INTO vets VALUES (2, 'Helen', 'Leary');
-INSERT INTO vets VALUES (3, 'Linda', 'Douglas');
-INSERT INTO vets VALUES (4, 'Rafael', 'Ortega');
-INSERT INTO vets VALUES (5, 'Henry', 'Stevens');
-INSERT INTO vets VALUES (6, 'Sharon', 'Jenkins');
-ALTER SEQUENCE vets_id_seq RESTART WITH 7;
+INSERT INTO vets VALUES (1, 'Erin', 'Schnabel');
+INSERT INTO vets VALUES (2, 'Charles', 'Moulliard');
+INSERT INTO vets VALUES (3, 'Ioannis', 'Canellos');
+INSERT INTO vets VALUES (4, 'Chris', 'Laprun');
+INSERT INTO vets VALUES (6, 'Aurea Munoz', 'Hernandez');
+INSERT INTO vets VALUES (7, 'Joze', 'Carnival');
+INSERT INTO vets VALUES (8, 'Attila', 'Meszaros');
+INSERT INTO vets VALUES (9, 'Ozzy', 'Osborne');
+INSERT INTO vets VALUES (10, 'Georgios', 'Andrianakis');
+ALTER SEQUENCE vets_id_seq RESTART WITH 9;
 
 INSERT INTO specialties VALUES (1, 'radiology');
 INSERT INTO specialties VALUES (2, 'surgery');
