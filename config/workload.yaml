@@ -15,7 +15,7 @@ spec:
   # tanzu apps workload update spring-tap-petclinic --annotation "autoscaling.knative.dev/scaleDownDelay=15m" --env "SPRING_PROFILES_ACTIVE=postgresql
   # env:
   #   - name: SPRING_PROFILES_ACTIVE
-  #     value: postgresql
+  #     value: postgres
 
   # tanzu services instances list -o wide
   # tanzu apps workload update spring-tap-petclinic --service-ref "db=sql.tanzu.vmware.com/v1:Postgres:tap-demo:postgres-db"
