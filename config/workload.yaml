@@ -5,8 +5,8 @@ metadata:
   labels:
     apps.tanzu.vmware.com/workload-type: web
     app.kubernetes.io/part-of: spring-tap-petclinic
-spec
-  #  tanzu apps workload update spring-tap-petclinic --annotation "autoscaling.knative.dev/scaleDownDelay=15m"
+spec:
+  # tanzu apps workload update spring-tap-petclinic --annotation "autoscaling.knative.dev/scaleDownDelay=15m"
   # params:
   # - name: annotations
   #   value:
