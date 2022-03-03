@@ -7,7 +7,7 @@ INSERT INTO vets VALUES (7, 'Joze', 'Carnival');
 INSERT INTO vets VALUES (8, 'Attila', 'Meszaros');
 INSERT INTO vets VALUES (9, 'Ozzy', 'Osborne');
 INSERT INTO vets VALUES (10, 'Georgios', 'Andrianakis');
-ALTER SEQUENCE vets_id_seq RESTART WITH 9;
+ALTER SEQUENCE vets_id_seq RESTART WITH 10;
 
 INSERT INTO specialties VALUES (1, 'radiology');
 INSERT INTO specialties VALUES (2, 'surgery');
