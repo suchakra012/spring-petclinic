@@ -78,17 +78,17 @@
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/application-postgres.properties matched [**] -> included
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/application.properties matched [**] -> included
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/banner.txt matched [**] -> included
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/data.sql matched [**] -> included
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/schema.sql matched [**] -> included
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/data.sql matched [**] -> included
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/schema.sql matched [**] -> included
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/data.sql matched [**] -> included
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/data-postgresql.sql matched [**] -> included
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/schema-postgresql.sql matched [**] -> included
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/data-postgresql.sql matched [**] -> included
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/schema-postgresql.sql matched [**] -> included
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/data-postgresql.sql matched [**] -> included
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/petclinic_db_setup_mysql.txt matched [**] -> included
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/schema.sql matched [**] -> included
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/schema-postgresql.sql matched [**] -> included
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/user.sql matched [**] -> included
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/data.sql matched [**] -> included
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/data-postgresql.sql matched [**] -> included
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/petclinic_db_setup_postgres.txt matched [**] -> included
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/schema.sql matched [**] -> included
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/schema-postgresql.sql matched [**] -> included
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/messages/messages.properties matched [**] -> included
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/messages/messages_de.properties matched [**] -> included
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/messages/messages_en.properties matched [**] -> included
@@ -193,17 +193,17 @@
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/application-postgres.properties didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/application.properties didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/banner.txt didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/data.sql didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/schema.sql didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/data.sql didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/schema.sql didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/data.sql didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/data-postgresql.sql didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/schema-postgresql.sql didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/data-postgresql.sql didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/schema-postgresql.sql didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/data-postgresql.sql didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/petclinic_db_setup_mysql.txt didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/schema.sql didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/schema-postgresql.sql didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/user.sql didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/data.sql didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/data-postgresql.sql didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/petclinic_db_setup_postgres.txt didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/schema.sql didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/schema-postgresql.sql didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/messages/messages.properties didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/messages/messages_de.properties didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/messages/messages_en.properties didn't match [pom.xml, readme.md, kubernetes/**, catalog/*.yaml, .github/**, build.gradle*, settings.gradle*, gradlew*, gradle/**] -> included
@@ -312,17 +312,17 @@
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/application-postgres.properties didn't match [pom.xml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/application.properties didn't match [pom.xml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/banner.txt didn't match [pom.xml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/data.sql didn't match [pom.xml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/schema.sql didn't match [pom.xml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/data.sql didn't match [pom.xml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/schema.sql didn't match [pom.xml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/data.sql didn't match [pom.xml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/data-postgresql.sql didn't match [pom.xml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/schema-postgresql.sql didn't match [pom.xml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/data-postgresql.sql didn't match [pom.xml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/schema-postgresql.sql didn't match [pom.xml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/data-postgresql.sql didn't match [pom.xml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/petclinic_db_setup_mysql.txt didn't match [pom.xml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/schema.sql didn't match [pom.xml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/schema-postgresql.sql didn't match [pom.xml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/user.sql didn't match [pom.xml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/data.sql didn't match [pom.xml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/data-postgresql.sql didn't match [pom.xml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/petclinic_db_setup_postgres.txt didn't match [pom.xml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/schema.sql didn't match [pom.xml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/schema-postgresql.sql didn't match [pom.xml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/messages/messages.properties didn't match [pom.xml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/messages/messages_de.properties didn't match [pom.xml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/messages/messages_en.properties didn't match [pom.xml] -> excluded
@@ -443,17 +443,17 @@
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/application-postgres.properties didn't match [kubernetes/tap/workload.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/application.properties didn't match [kubernetes/tap/workload.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/banner.txt didn't match [kubernetes/tap/workload.yaml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/data.sql didn't match [kubernetes/tap/workload.yaml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/schema.sql didn't match [kubernetes/tap/workload.yaml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/data.sql didn't match [kubernetes/tap/workload.yaml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/schema.sql didn't match [kubernetes/tap/workload.yaml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/data.sql didn't match [kubernetes/tap/workload.yaml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/data-postgresql.sql didn't match [kubernetes/tap/workload.yaml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/schema-postgresql.sql didn't match [kubernetes/tap/workload.yaml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/data-postgresql.sql didn't match [kubernetes/tap/workload.yaml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/schema-postgresql.sql didn't match [kubernetes/tap/workload.yaml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/data-postgresql.sql didn't match [kubernetes/tap/workload.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/petclinic_db_setup_mysql.txt didn't match [kubernetes/tap/workload.yaml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/schema.sql didn't match [kubernetes/tap/workload.yaml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/schema-postgresql.sql didn't match [kubernetes/tap/workload.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/user.sql didn't match [kubernetes/tap/workload.yaml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/data.sql didn't match [kubernetes/tap/workload.yaml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/data-postgresql.sql didn't match [kubernetes/tap/workload.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/petclinic_db_setup_postgres.txt didn't match [kubernetes/tap/workload.yaml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/schema.sql didn't match [kubernetes/tap/workload.yaml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/schema-postgresql.sql didn't match [kubernetes/tap/workload.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/messages/messages.properties didn't match [kubernetes/tap/workload.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/messages/messages_de.properties didn't match [kubernetes/tap/workload.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/messages/messages_en.properties didn't match [kubernetes/tap/workload.yaml] -> excluded
@@ -570,17 +570,17 @@
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/application-postgres.properties didn't match [catalog/*.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/application.properties didn't match [catalog/*.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/banner.txt didn't match [catalog/*.yaml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/data.sql didn't match [catalog/*.yaml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/schema.sql didn't match [catalog/*.yaml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/data.sql didn't match [catalog/*.yaml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/schema.sql didn't match [catalog/*.yaml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/data.sql didn't match [catalog/*.yaml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/data-postgresql.sql didn't match [catalog/*.yaml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/schema-postgresql.sql didn't match [catalog/*.yaml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/data-postgresql.sql didn't match [catalog/*.yaml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/schema-postgresql.sql didn't match [catalog/*.yaml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/data-postgresql.sql didn't match [catalog/*.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/petclinic_db_setup_mysql.txt didn't match [catalog/*.yaml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/schema.sql didn't match [catalog/*.yaml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/schema-postgresql.sql didn't match [catalog/*.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/user.sql didn't match [catalog/*.yaml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/data.sql didn't match [catalog/*.yaml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/data-postgresql.sql didn't match [catalog/*.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/petclinic_db_setup_postgres.txt didn't match [catalog/*.yaml] -> excluded
-┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/schema.sql didn't match [catalog/*.yaml] -> excluded
+┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/schema-postgresql.sql didn't match [catalog/*.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/messages/messages.properties didn't match [catalog/*.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/messages/messages_de.properties didn't match [catalog/*.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/messages/messages_en.properties didn't match [catalog/*.yaml] -> excluded
@@ -699,17 +699,17 @@
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/application-postgres.properties didn't match [readme.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/application.properties didn't match [readme.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/banner.txt didn't match [readme.md] -> excluded
-┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/data.sql didn't match [readme.md] -> excluded
-┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/schema.sql didn't match [readme.md] -> excluded
-┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/data.sql didn't match [readme.md] -> excluded
-┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/schema.sql didn't match [readme.md] -> excluded
-┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/data.sql didn't match [readme.md] -> excluded
+┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/data-postgresql.sql didn't match [readme.md] -> excluded
+┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/schema-postgresql.sql didn't match [readme.md] -> excluded
+┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/data-postgresql.sql didn't match [readme.md] -> excluded
+┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/schema-postgresql.sql didn't match [readme.md] -> excluded
+┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/data-postgresql.sql didn't match [readme.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/petclinic_db_setup_mysql.txt didn't match [readme.md] -> excluded
-┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/schema.sql didn't match [readme.md] -> excluded
+┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/schema-postgresql.sql didn't match [readme.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/user.sql didn't match [readme.md] -> excluded
-┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/data.sql didn't match [readme.md] -> excluded
+┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/data-postgresql.sql didn't match [readme.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/petclinic_db_setup_postgres.txt didn't match [readme.md] -> excluded
-┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/schema.sql didn't match [readme.md] -> excluded
+┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/schema-postgresql.sql didn't match [readme.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/messages/messages.properties didn't match [readme.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/messages/messages_de.properties didn't match [readme.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/messages/messages_en.properties didn't match [readme.md] -> excluded
@@ -827,17 +827,17 @@
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/application-postgres.properties didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/application.properties didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/banner.txt didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
-┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/data.sql didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
-┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/schema.sql didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
-┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/data.sql didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
-┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/schema.sql didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
-┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/data.sql didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
+┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/data-postgresql.sql didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
+┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/h2/schema-postgresql.sql didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
+┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/data-postgresql.sql didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
+┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/hsqldb/schema-postgresql.sql didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
+┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/data-postgresql.sql didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/petclinic_db_setup_mysql.txt didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
-┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/schema.sql didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
+┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/schema-postgresql.sql didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/mysql/user.sql didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
-┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/data.sql didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
+┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/data-postgresql.sql didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/petclinic_db_setup_postgres.txt didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
-┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/schema.sql didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
+┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/db/postgres/schema-postgresql.sql didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/messages/messages.properties didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/messages/messages_de.properties didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/resources/messages/messages_en.properties didn't match [kubernetes/tap/DEPLOYING.md] -> excluded
