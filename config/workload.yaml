@@ -11,6 +11,7 @@ spec:
   # - name: annotations
   #   value:
   #     autoscaling.knative.dev/scaleDownDelay: 15m
+  #     autoscaling.knative.dev/minScale: "1"
 
   # tanzu apps workload update spring-tap-petclinic --annotation "autoscaling.knative.dev/scaleDownDelay=15m" --env "SPRING_PROFILES_ACTIVE=postgresql
   # env:
