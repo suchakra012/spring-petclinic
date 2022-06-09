@@ -10,6 +10,7 @@ metadata:
     - web
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-tap-petclinic'
+    'backstage.io/techdocs-ref': dir:.
 spec:
   type: service
   lifecycle: experimental
