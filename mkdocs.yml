@@ -1,0 +1,9 @@
+site_name: 'Spring Boot components'
+
+nav:
+  - Spring Boot Petclinic
+  - : index.md
+  - Adding Documentation: add-docs.md
+
+plugins:
+  - techdocs-core
